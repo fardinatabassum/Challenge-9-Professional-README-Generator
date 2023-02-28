@@ -22,6 +22,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "usage",
+    message: "Provide some usage for this project",
+  },
+  {
+    type: "input",
     name: "credits",
     message: "List your collaborators, if any.",
   },
@@ -69,7 +74,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions)
   .then(function(data) {
-    writeToFile("README.md", generateMarkdown(data))
+    writeToFile("./assets/README.md", generateMarkdown(data))
   });
 }
 
