@@ -55,6 +55,7 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
+  - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
   - [Contributing](#contributing)
@@ -68,6 +69,10 @@ function generateMarkdown(data) {
   ## Installation
   
   ${data.installation}
+
+  ## Usage
+  
+  ${data.usage}
   
   ## Credits
   
@@ -90,7 +95,6 @@ function generateMarkdown(data) {
   
   For further inquiries reach me at ${data.email}
   
-  ### Live Site: https://gituhb.com/${data.github}/${data.title}
   
   `;
 }
