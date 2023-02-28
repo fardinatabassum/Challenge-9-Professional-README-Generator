@@ -23,7 +23,10 @@
   ## Usage
   
   Cd into the following folder containing the index.js and run the file in the command line. Input the code index.js to initialize the generator. Answer the following prompts and press enter to save your input. For the license input use the up and down arrow keys to select the appropriate license. After completing the prompts the markdown README file is then created in the assets folder.
-  
+
+
+![Challenge-9-Professional-README-Generator](./Develop/assets/readme%20generator%20screenshot.png)
+
   
   ## Credits
   
